@@ -1,2 +1,3 @@
 # SimonDice
- Juego normal de Simon dice hecho en Js
+ Juego normal de Simon dice hecho en Js, codigo base rArgentinaPrograma.
+
