@@ -1,16 +1,25 @@
 body{
-	
+	background: black;
+}
+
+h1, p{
+	color: white;
+}
+
+footer{
+	color: white;
 }
 
 
-#btn-jugar{
-	border-radius:20px;
+
+.empezar{
+	border-radius: 20px;
 	text-transform: capitalize;
 }
 
 .cuadro{
 	height: 200px;
-	opacity: 0.6;
+	opacity: 0.5;
 	transition: 500ms;
 
 }
