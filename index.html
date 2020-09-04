@@ -7,17 +7,35 @@
 
 
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link  href="./styles/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+
+    <link rel="stylesheet" href="styles/style.css">
 
 </head>
 <body>
 
     <div class="container-fluid" >
-        <header>
+
+        <header class="container-fluid">
             <h1>Juanma Dice</h1>
         </header>
-        <div class="container" id="tablero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="alert alert-primary" role="alert" id="estado"><!-- --></div>
+        
+                </div>
+                <div class="col-sm-2">
+                    <p>Ronda # <strong id="ronda">0</strong></p>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-primary">Empezar</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid" id="tablero">
             <div class="row">
                 <div class="col-sm">
                     <div class="cuadro" id="cuadro-1">A</div>
@@ -42,7 +60,7 @@
             </div>
         </footer>
     </div>
-    
+    <script src="/js/index.js"></script>
 </body>
 </html>
 
