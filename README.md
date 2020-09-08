@@ -3,4 +3,7 @@
 
 ## [Live Demo / Ver Demo](https://ibarzabal-jm.github.io/SimonDice/) 
 
-Falta darle más estilo con css.
+##Siguiente versión
+* Falta darle más estilo con css.
+* Agregarle sonido a los botones.
+
