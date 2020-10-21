@@ -18,6 +18,7 @@ footer{
 }
 
 .cuadro{
+	cursor: pointer;
 	height: 200px;
 	opacity: 0.5;
 	transition: 500ms;
@@ -26,16 +27,22 @@ footer{
 
 #cuadro-1{
 	background-color: red ;
+	border-top-left-radius: 20px;
 }
 
 #cuadro-2{
 	background-color: blue ;
+	border-top-right-radius: 20px;
 }
 
 #cuadro-3{
 	background-color: yellow ;
+	border-bottom-left-radius: 20px;
 }
 
 #cuadro-4{
+
 	background-color: green ;
+	border-bottom-right-radius: 20px;
+
 }
